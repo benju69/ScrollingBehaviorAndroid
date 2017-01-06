@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
     android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
@@ -18,75 +19,77 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/standard_app_bar_with_tollbar_only" />
+                android:text="@string/standard_app_bar_with_tollbar_only"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchStdAppBarScrollsActivity"
-                android:text="@string/stdappbar_with_toolbar_scrolls" />
+                android:text="@string/stdappbar_with_toolbar_scrolls"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchStdAppBarStaysActivity"
-                android:text="@string/stdappbar_with_toolbar_stays" />
+                android:text="@string/stdappbar_with_toolbar_stays"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_bar_with_tabs" />
+                android:text="@string/app_bar_with_tabs"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchAppBarTabsScrollsActivity"
-                android:text="@string/appbar_with_tabs_scrolling_fully" />
+                android:text="@string/appbar_with_tabs_scrolling_fully"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchAppBarTabStaysActivity"
-                android:text="@string/appbar_with_tabs_tabs_stays" />
+                android:text="@string/appbar_with_tabs_tabs_stays"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchAppBarTabHidesActivity"
-                android:text="@string/appbar_with_tabs_tab_and_toolbar_stays" />
+                android:text="@string/appbar_with_tabs_tab_and_toolbar_stays"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_bar_with_flexible_space" />
+                android:text="@string/app_bar_with_flexible_space"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchAppBarFlexiSpaceScrollsActivity"
-                android:text="@string/appbar_with_flexi_space_scrolling" />
+                android:text="@string/appbar_with_flexi_space_scrolling"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_bar_with_flexible_image" />
+                android:text="@string/app_bar_with_flexible_image"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchAppBarFlexiImageScrollsActivity"
-                android:text="@string/appbar_with_flexi_image_parallax_scrolling" />
+                android:text="@string/appbar_with_flexi_image_parallax_scrolling"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_bar_with_flexi_space_and_overlapping_content" />
+                android:text="@string/app_bar_with_flexi_space_and_overlapping_content"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="launchAppBarFlexiOverlappingActivity"
-                android:text="@string/appbar_with_flexi_overlapping_content" />
+                android:text="@string/appbar_with_flexi_overlapping_content"/>
         </LinearLayout>
+
     </android.support.v4.widget.NestedScrollView>
+
 </RelativeLayout>

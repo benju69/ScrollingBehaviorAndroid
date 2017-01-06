@@ -5,10 +5,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-/**
- * Created by karthik on 1/1/17.
- */
-
 public class AppBarFlexiSpaceScrollsActivity extends AppCompatActivity {
 
     @Override
@@ -22,4 +18,5 @@ public class AppBarFlexiSpaceScrollsActivity extends AppCompatActivity {
         final ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
     }
+
 }
